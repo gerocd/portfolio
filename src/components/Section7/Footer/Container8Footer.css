@@ -1,0 +1,102 @@
+.text-button3 {
+  position: relative;
+  line-height: 150%;
+}
+.line6 {
+  align-self: stretch;
+  width: 1px;
+  position: relative;
+  border-right: 1px solid var(--dark-12);
+  box-sizing: border-box;
+}
+.sub-container31 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+  z-index: 0;
+}
+.icon35,
+.text45 {
+  position: relative;
+}
+.text45 {
+  line-height: 150%;
+  z-index: 1;
+}
+.icon35 {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+}
+.button32,
+.icon35,
+.icon36 {
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.button32 {
+  width: 48px;
+  border-radius: var(--br-81xl);
+  background-color: var(--dark-12);
+  border: 1px solid var(--dark-20);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-sm);
+}
+.icon36 {
+  width: 20px;
+  position: relative;
+  height: 20px;
+}
+.button33,
+.buttons-container5 {
+  border-radius: var(--br-81xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.button33 {
+  background-color: var(--dark-12);
+  border: 1px solid var(--dark-20);
+  overflow: hidden;
+  justify-content: flex-start;
+  padding: var(--padding-sm);
+}
+.buttons-container5 {
+  margin: 0 !important;
+  position: absolute;
+  top: calc(50% - 33.5px);
+  left: calc(50% - 91px);
+  background-color: var(--dark-03);
+  border: 1px solid var(--dark-12);
+  justify-content: flex-end;
+  padding: var(--padding-3xs);
+  gap: var(--gap-3xs);
+  z-index: 2;
+}
+.container33 {
+  align-self: stretch;
+  border-top: 1px solid var(--dark-12);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-21xl) var(--padding-143xl);
+  position: relative;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--grey-50);
+  font-family: var(--font-manrope);
+}
+
+@media (max-width: 600px) {
+  .container33 {
+    display: block;
+    align-self: auto;
+  }
+}

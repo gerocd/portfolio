@@ -1,0 +1,85 @@
+.text38,
+.text39 {
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.text39 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  font-family: var(--font-manrope);
+  color: var(--grey-95);
+  text-align: left;
+  display: inline-block;
+}
+.button26 {
+  border-bottom: 1px solid var(--dark-20);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) var(--padding-0);
+}
+.text40 {
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.container30,
+.links-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.container30 {
+  gap: var(--gap-7xs);
+  color: var(--grey-95);
+}
+.links-container {
+  width: 375px;
+  gap: var(--gap-xl);
+}
+.button30 {
+  width: 94px;
+  border-bottom: 1px solid var(--dark-20);
+  box-sizing: border-box;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) var(--padding-0);
+}
+.button30,
+.container31,
+.sub-container30 {
+  display: flex;
+  align-items: flex-start;
+}
+.container31 {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.sub-container30 {
+  flex: 1;
+  border-right: 1px solid var(--dark-12);
+  border-left: 1px solid var(--dark-12);
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-81xl) 20px;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--grey-50);
+  font-family: var(--font-manrope);
+}
+
+@media (max-width: 710px) {
+  .sub-container30 {
+    gap: 25px;
+    flex-direction: column;
+  }
+}

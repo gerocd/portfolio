@@ -1,0 +1,32 @@
+.abstract-design-icon1,
+.abstract-design-icon2 {
+  width: 200px;
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 100.5px);
+  height: 200px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.abstract-design-icon1 {
+  left: -38px;
+  z-index: 2;
+}
+.abstract-design-icon2 {
+  right: -38px;
+  z-index: 3;
+}
+.container32 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-0) var(--padding-143xl);
+  position: relative;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--grey-50);
+  font-family: var(--font-manrope);
+}

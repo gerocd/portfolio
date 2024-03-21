@@ -1,0 +1,11 @@
+.container3 {
+  padding: 0 9px;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-61xl);
+  color: var(--grey-90);
+  font-family: var(--font-manrope);
+}

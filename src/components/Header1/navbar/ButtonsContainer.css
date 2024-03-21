@@ -1,0 +1,104 @@
+.buttons-container {
+  padding: var(--padding-11xl) var(--padding-31xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0 !important;
+  width: 617px;
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 308px);
+  border-radius: var(--br-xs) var(--br-xs) 0 0;
+  border-top: 1px solid var(--dark-12);
+  border-right: 1px solid var(--dark-12);
+  border-left: 1px solid var(--dark-12);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 2;
+}
+
+.text {
+  flex: 1;
+  position: relative;
+  font-size: 16px;
+  line-height: 150%;
+  font-weight: 500;
+  font-family: Consolas, Courier New, monospace;
+  color: rgb(255, 255, 255);
+  text-align: left;
+}
+
+.text-button {
+  flex: 1;
+  position: relative;
+  font-size: 16px;
+  line-height: 150%;
+  font-weight: 500;
+  font-family: Consolas, Courier New, monospace;
+  color: rgb(161, 161, 161);
+  text-align: left;
+}
+
+.button,
+.button1,
+.button3 {
+  cursor: pointer;
+  border: solid #201447 1px;
+  padding: 0 20px;
+  background: linear-gradient(145deg, #000000, #1e1d20);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  margin: 5px;
+  width: 120px;
+  border-radius: 5px;
+  font-family: Consolas, Courier New, monospace;
+  font-size: 16px;
+  color: rgb(161, 161, 161);
+  transition: 500ms;
+}
+
+.button:hover,
+.button1:hover,
+.button3:hover {
+  box-shadow: 1px 1px 13px #300a67, -1px -1px 13px #4a2a99; /* Sombra al pasar el cursor */
+  color: #d6d6d6;
+  transition: 500ms;
+}
+
+.button:active,
+.button1:active,
+.button3:active {
+  box-shadow: 1px 1px 13px #300a67, -1px -1px 33px #4a2a99; /* Sombra al hacer clic */
+  color: #d6d6d6;
+  transition: 100ms;
+}
+
+@media (max-width: 1165px) {
+  .button,
+  .button1,
+  .button3 {
+    width: 111px;
+  }
+}
+
+@media (max-width: 910px) {
+  .button,
+  .button1,
+  .button3 {
+    width: 99px;
+  }
+}
+
+@media (max-width: 800px) {
+  .buttons-container {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    flex-direction: column;
+  }
+}

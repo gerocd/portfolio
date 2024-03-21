@@ -1,0 +1,23 @@
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.frame,
+.home-page-desktop {
+  overflow: hidden;
+}
+
+.frame {
+  align-self: stretch;
+  align-items: flex-start;
+}
+
+.home-page-desktop {
+  width: 100%;
+  position: relative;
+  background-color: var(--dark-03);
+  align-items: center;
+  gap: 130px;
+}

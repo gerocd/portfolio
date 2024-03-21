@@ -1,0 +1,111 @@
+.sub-container-21 > div {
+  transition: transform 0.3s ease-in-out;
+}
+
+.sub-container-21 > div:hover {
+  transform: scale(1.05);
+}
+
+.image-icon3 {
+  border-radius: var(--br-xl);
+  max-width: 100%;
+  overflow: hidden;
+  height: 519px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.heading12,
+.image-icon3,
+.text23 {
+  align-self: stretch;
+  position: relative;
+}
+.heading12 {
+  font-weight: 500;
+}
+.text23 {
+  font-size: var(--font-size-lg);
+  color: var(--grey-50);
+}
+.text-container7 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.text24 {
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.vector-431-stroke1 {
+  position: absolute;
+  height: 68.75%;
+  width: 68.75%;
+  top: 15.42%;
+  right: 15.42%;
+  bottom: 15.83%;
+  left: 15.83%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.icon20 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  width: 24px;
+  position: relative;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.button18 {
+  text-decoration: none;
+  border-bottom: 1px solid var(--dark-20);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) var(--padding-0);
+  gap: var(--gap-3xs);
+  font-size: var(--font-size-lg);
+  color: var(--grey-95);
+}
+.container21 {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-xl);
+}
+.card1,
+.container21,
+.sub-container-21 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.card1 {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-lgi);
+}
+.sub-container-21 {
+  padding: 0 30px;
+  align-self: stretch;
+  flex-direction: row;
+  gap: 25px;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--grey-80);
+  font-family: var(--font-manrope);
+}
+
+@media (max-width: 734px) {
+  .sub-container-21 {
+    flex-direction: column;
+  }
+}

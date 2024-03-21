@@ -1,0 +1,106 @@
+.opinion-form-container {
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.opinion-form {
+  position: relative;
+  width: 540px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xl);
+  padding: var(--padding-21xl);
+  border: 2px solid rgba(100, 3, 255, 0.9);
+  border-radius: var(--br-xs);
+  background-color: var(--dark-06);
+  font-size: var(--font-size-xl);
+  color: var(--grey-90);
+  font-family: var(--font-manrope);
+}
+
+.form-field {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: linear-gradient(206.57deg, #18181b, rgba(24, 24, 27, 0));
+  height: 56px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 16px;
+  box-sizing: border-box;
+  font-family: "Plus Jakarta Sans";
+  font-size: 16px;
+  color: #bdbdbd;
+  min-width: 132px;
+}
+
+.form-field-opinion {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: linear-gradient(206.57deg, #18181b, rgba(24, 24, 27, 0));
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 16px;
+  box-sizing: border-box;
+  font-family: "Plus Jakarta Sans";
+  font-size: 16px;
+  color: #bdbdbd;
+  min-width: 132px;
+}
+
+.submit-button {
+  cursor: pointer;
+  border: none;
+  padding: 16px;
+  background-color: #4a2ced;
+  width: 135px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  color: white;
+  font-size: 16px;
+}
+.submit-button:hover {
+  background-color: #4f4f4f;
+}
+
+.confirmacion {
+  margin-top: 20px;
+  color: white;
+}
+
+.close-button {
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  background: none;
+  border: none;
+  font-size: 1.5em;
+  cursor: pointer;
+  color: white;
+  transition: transform 0.3s ease;
+}
+
+.close-button:hover {
+  transform: rotate(90deg);
+}

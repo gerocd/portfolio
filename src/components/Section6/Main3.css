@@ -1,0 +1,33 @@
+.news-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, auto);
+  gap: 20px;
+  justify-content: center; 
+  align-items: center; 
+  margin-left: 150px;
+  margin-right: 150px;
+  font-size: var(--font-size-lg);
+  line-height: 150%;
+  color: var(--grey-70);
+}
+
+.relleno {
+  visibility: hidden;
+}
+
+.frontend,
+.backend,
+.testing {
+  text-align: center;
+  padding: 20px;
+}
+
+.relleno img,
+.frontend img,
+.backend img,
+.testing img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
