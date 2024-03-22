@@ -33,20 +33,3 @@ const ContainerImages = () => {
 };
 
 export default ContainerImages;
-
-/*import React from 'react';
-import './ContainerImages.css'; // Asegúrate de importar el archivo CSS correctamente
-
-const ContainerImages= () => {
-  return (
-      <div >
-        <img
-          className="images-container-icon"
-          alt=""
-          src="/images-container@2x.png"
-        />
-    </div>
-  );
-};
-
-export default ContainerImages; */
