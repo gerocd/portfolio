@@ -23,7 +23,7 @@ const ContainerImages = () => {
         />
       ) : (
         <div className="small-images-container">
-          <img src="/react12121288.png" alt="" />
+          <img src="/reactjs_logo_icon_168875.png" alt="" />
           <img src="/nodejs128.png" alt="" />
           <img src="/js128.png" alt="" />
         </div>
