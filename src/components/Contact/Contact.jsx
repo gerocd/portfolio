@@ -11,7 +11,7 @@ const Contact = () => {
 
   const handleEnviar = async () => {
     try {
-      const response = await axios.post("https://portfolioapi-zylf.onrender.com/api/send-gmail", {
+      const response = await axios.post("https://portfolioapi-zylf.onrender.com//api/send-gmail", {
         subject: nombre,
         html: `<p>${gmail}</p><p>${mensaje}</p>`,
       });

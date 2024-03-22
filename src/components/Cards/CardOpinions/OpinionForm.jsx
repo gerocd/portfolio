@@ -11,7 +11,7 @@ const OpinionForm = ({ onSubmit, onClose }) => {
 
   const handleEnviar = async () => {
     try {
-      const response = await axios.post("http://localhost:300/api/send-opinion", {
+      const response = await axios.post("https://portfolioapi-zylf.onrender.com/api/send-opinion", {
         name,
         location,
         opinion,
